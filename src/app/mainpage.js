@@ -10,11 +10,12 @@ import {
   RotationMotion,
   ColorMotion,
   OpacityMotion,
+  MouseClickController
 } from "../../CorgiUI";
 import MovingMotionTemp from "../../CorgiUI/Motion/MovingMotionTemp";
 const Intro = () => {
   const [scrollcontroller, setscrollcontroller] = useState(
-    new ScrollControllerGlobal(1000)
+    new MouseClickController(1000)
   );
   const [guagecontroller, setguagecontroller] = useState(
     new GuageController(scrollcontroller, 1, 10)

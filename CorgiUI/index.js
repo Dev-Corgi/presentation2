@@ -13,7 +13,7 @@ import GuageController from "./Controller/GuageController";
 import ScrollControllerComponent from "./Controller/ScrollControllerComponent";
 import ScrollControllerGlobal from "./Controller/ScrollControllerGlobal";
 import SlideDetectorComponent from "./Controller/SlideDetectorComponent";
-
+import MouseClickController from "./Controller/MouseClickController";
 //Motions
 
 import MovingMotion from "./Motion/MovingMotion";
@@ -38,7 +38,7 @@ const CorgiUI = {
 };
 
 export { Easetype }
-export { ButtonController,GuageController,ScrollControllerComponent,ScrollControllerGlobal,SlideDetectorComponent }
+export { ButtonController,GuageController,ScrollControllerComponent,ScrollControllerGlobal,SlideDetectorComponent,MouseClickController }
 export {MovingMotion,OpacityMotion,RotationMotion,ScaleMotion,StretchMotion, ZindexMotion,ColorMotion}
 export {CorgiLoader}
 export {Carousel}
