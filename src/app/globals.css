@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "ChosunSm";
+  src: url("/fonts/ChosunSm.ttf")format('truetype');
+}
+
+@font-face {
+  font-family: "Pretendard-SemiBold";
+  src: url("/fonts/Pretendard-SemiBold.ttf")format('truetype');
+}
+
+@font-face {
+  font-family: "Pretendard-ExtraBold";
+  src: url("/fonts/Pretendard-ExtraBold.ttf")format('truetype');
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
