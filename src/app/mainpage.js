@@ -61,12 +61,12 @@ const Intro = () => {
       ]}
     >
       <CorgiDiv
-        className="absolute top-[calc(50%_-_228.37px)] left-[-34rem] h-[40.57rem] flex flex-row items-center justify-start gap-[6.31rem] [transform:_rotate(-3.94deg)] [transform-origin:0_0] text-[0.63rem]"
+        className="absolute w-[412.75%] top-[calc(50%_-_228.37px)] right-[-274.94%] left-[-37.81%] h-[40.57rem] flex flex-row items-center justify-start gap-[6.31rem] [transform:_rotate(-3.94deg)] [transform-origin:0_0]"
         motions={[
           {
             input: guagecontroller,
             motion: new MovingMotionTemp(
-              "-55.9vw",
+              "-59.724vw",
               "7.31vh",
               0,
               1,
@@ -78,9 +78,9 @@ const Intro = () => {
           },
         ]}
       >
-        <div className="self-stretch relative w-[53.55rem]">
+        <div className="self-stretch flex-1 relative">
           <CorgiDiv
-            className="absolute h-[calc(100%_-_206.54px)] w-[calc(100%_-_516.89px)] top-[6.4rem] right-[16.18rem] bottom-[6.51rem] left-[16.13rem]"
+            className="absolute h-[68.18%] top-[15.78%] bottom-[16.04%] left-[calc(50%_-_170.37px)] w-[21.25rem]"
             motions={[
               {
                 input: guagecontroller,
@@ -104,7 +104,7 @@ const Intro = () => {
             <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-black opacity-[0.3]" />
           </CorgiDiv>
           <CorgiDiv
-            className="absolute h-[calc(100%_-_205.66px)] w-[calc(100%_-_515.25px)] top-[6.37rem] right-[16.11rem] bottom-[6.49rem] left-[16.09rem]"
+            className="absolute h-[68.32%] top-[15.7%] bottom-[15.99%] left-[calc(50%_-_170.92px)] w-[21.35rem]"
             motions={[
               {
                 input: guagecontroller,
@@ -128,7 +128,7 @@ const Intro = () => {
             <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-black opacity-[0.3]" />
           </CorgiDiv>
           <CorgiDiv
-            className="absolute h-[calc(100%_-_129.06px)] w-[calc(100%_-_466.12px)] top-[4.03rem] right-[14.56rem] bottom-[4.04rem] left-[14.57rem]"
+            className="absolute h-[80.12%] top-[9.92%] bottom-[9.96%] left-[calc(50%_-_195.3px)] w-[24.42rem]"
             motions={[
               {
                 input: guagecontroller,
@@ -145,18 +145,10 @@ const Intro = () => {
             />
             <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-black opacity-[0.3]" />
           </CorgiDiv>
-          {/* <div className="absolute top-[38.73rem] left-[45.53rem] w-[12rem] h-[1.75rem] [transform:_rotate(3.94deg)] [transform-origin:0_0]">
-            <div className="absolute top-[57.17%] left-[0.66%] tracking-[-0.04em] font-pretendardSemiBold [transform:_rotate(-3.94deg)] [transform-origin:0_0]">
-              많은것이 다른 대학생활, 회의감을 느끼다
-            </div>
-            <div className="absolute top-[4.67%] left-[0%] tracking-[-0.04em] font-pretendardExtraBold [transform:_rotate(-3.94deg)] [transform-origin:0_0]">
-              No.1
-            </div>
-          </div> */}
         </div>
-        <div className="self-stretch relative w-[53.55rem]">
+        <div className="self-stretch flex-1 relative">
           <CorgiDiv
-            className="absolute h-[calc(100%_-_206.54px)] w-[calc(100%_-_516.89px)] top-[6.4rem] right-[16.18rem] bottom-[6.51rem] left-[16.13rem]"
+            className="absolute h-[68.18%] top-[15.78%] bottom-[16.04%] left-[calc(50%_-_170.37px)] w-[21.25rem]"
             motions={[
               {
                 input: null,
@@ -201,7 +193,7 @@ const Intro = () => {
             <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-black opacity-[0.3]" />
           </CorgiDiv>
           <CorgiDiv
-            className="absolute h-[calc(100%_-_205.66px)] w-[calc(100%_-_515.25px)] top-[6.37rem] right-[16.11rem] bottom-[6.49rem] left-[16.09rem]"
+            className="absolute h-[68.32%] top-[15.7%] bottom-[15.99%] left-[calc(50%_-_170.92px)] w-[21.35rem]"
             motions={[
               {
                 input: null,
@@ -246,7 +238,7 @@ const Intro = () => {
             <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-black opacity-[0.3]" />
           </CorgiDiv>
           <CorgiDiv
-            className="absolute h-[calc(100%_-_129.06px)] w-[calc(100%_-_466.12px)] top-[4.03rem] right-[14.56rem] bottom-[4.04rem] left-[14.57rem]"
+            className="absolute h-[80.12%] top-[9.92%] bottom-[9.96%] left-[calc(50%_-_195.3px)] w-[24.42rem]"
             motions={[
               {
                 input: null,
@@ -274,7 +266,7 @@ const Intro = () => {
             <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-black opacity-[0.3]" />
           </CorgiDiv>
           <CorgiDiv
-            className="absolute top-[38.73rem] left-[45.53rem] w-[12rem] h-[1.75rem] [transform:_rotate(3.94deg)] [transform-origin:0_0]"
+            className="absolute top-[38.73rem] right-[-1.51rem] w-[12rem] h-[1.75rem] [transform:_rotate(3.94deg)] [transform-origin:0_0] text-[0.63rem]"
             motions={[
               {
                 input: guagecontroller,
@@ -293,9 +285,9 @@ const Intro = () => {
             </div>
           </CorgiDiv>
         </div>
-        <div className="self-stretch relative w-[53.55rem]">
+        <div className="self-stretch flex-1 relative">
           <CorgiDiv
-            className="absolute h-[calc(100%_-_206.54px)] w-[calc(100%_-_516.89px)] top-[6.4rem] right-[16.18rem] bottom-[6.51rem] left-[16.13rem]"
+            className="absolute h-[68.18%] top-[15.78%] bottom-[16.04%] left-[calc(50%_-_170.37px)] w-[21.25rem]"
             motions={[
               {
                 input: guagecontroller,
@@ -346,7 +338,7 @@ const Intro = () => {
             <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-black opacity-[0.3]" />
           </CorgiDiv>
           <CorgiDiv
-            className="absolute h-[calc(100%_-_205.66px)] w-[calc(100%_-_515.25px)] top-[6.37rem] right-[16.11rem] bottom-[6.49rem] left-[16.09rem]"
+            className="absolute h-[68.32%] top-[15.7%] bottom-[15.99%] left-[calc(50%_-_170.92px)] w-[21.35rem]"
             motions={[
               {
                 input: guagecontroller,
@@ -397,7 +389,7 @@ const Intro = () => {
             <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-black opacity-[0.3]" />
           </CorgiDiv>
           <CorgiDiv
-            className="absolute h-[calc(100%_-_129.06px)] w-[calc(100%_-_466.12px)] top-[4.03rem] right-[14.56rem] bottom-[4.04rem] left-[14.57rem]"
+            className="absolute h-[80.12%] top-[9.92%] bottom-[9.96%] left-[calc(50%_-_195.3px)] w-[24.42rem]"
             motions={[
               {
                 input: guagecontroller,
@@ -428,7 +420,7 @@ const Intro = () => {
             <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-black opacity-[0.3]" />
           </CorgiDiv>
           <CorgiDiv
-            className="absolute top-[38.73rem] left-[45.53rem] w-[12rem] h-[1.75rem] [transform:_rotate(3.94deg)] [transform-origin:0_0]"
+            className="absolute top-[38.73rem] right-[-1.51rem] w-[12rem] h-[1.75rem] [transform:_rotate(3.94deg)] [transform-origin:0_0] text-[0.63rem]"
             motions={[
               {
                 input: guagecontroller,
@@ -447,9 +439,9 @@ const Intro = () => {
             </div>
           </CorgiDiv>
         </div>
-        <div className="self-stretch relative w-[53.55rem]">
+        <div className="self-stretch flex-1 relative">
           <CorgiDiv
-            className="absolute h-[calc(100%_-_206.54px)] w-[calc(100%_-_516.89px)] top-[6.4rem] right-[16.18rem] bottom-[6.51rem] left-[16.13rem]"
+            className="absolute h-[68.18%] top-[15.78%] bottom-[16.04%] left-[calc(50%_-_170.37px)] w-[21.25rem]"
             motions={[
               {
                 input: guagecontroller,
@@ -500,7 +492,7 @@ const Intro = () => {
             <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-black opacity-[0.3]" />
           </CorgiDiv>
           <CorgiDiv
-            className="absolute h-[calc(100%_-_205.66px)] w-[calc(100%_-_515.25px)] top-[6.37rem] right-[16.11rem] bottom-[6.49rem] left-[16.09rem]"
+            className="absolute h-[68.32%] top-[15.7%] bottom-[15.99%] left-[calc(50%_-_170.92px)] w-[21.35rem]"
             motions={[
               {
                 input: guagecontroller,
@@ -551,7 +543,7 @@ const Intro = () => {
             <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-black opacity-[0.3]" />
           </CorgiDiv>
           <CorgiDiv
-            className="absolute h-[calc(100%_-_129.06px)] w-[calc(100%_-_466.12px)] top-[4.03rem] right-[14.56rem] bottom-[4.04rem] left-[14.57rem]"
+            className="absolute h-[80.12%] top-[9.92%] bottom-[9.96%] left-[calc(50%_-_195.3px)] w-[24.42rem]"
             motions={[
               {
                 input: guagecontroller,
@@ -582,7 +574,7 @@ const Intro = () => {
             <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-black opacity-[0.3]" />
           </CorgiDiv>
           <CorgiDiv
-            className="absolute top-[38.73rem] left-[45.53rem] w-[12rem] h-[1.75rem] [transform:_rotate(3.94deg)] [transform-origin:0_0]"
+            className="absolute top-[38.73rem] right-[-1.51rem] w-[12rem] h-[1.75rem] [transform:_rotate(3.94deg)] [transform-origin:0_0] text-[0.63rem]"
             motions={[
               {
                 input: guagecontroller,
@@ -601,9 +593,9 @@ const Intro = () => {
             </div>
           </CorgiDiv>
         </div>
-        <div className="self-stretch relative w-[53.55rem]">
+        <div className="self-stretch flex-1 relative">
           <CorgiDiv
-            className="absolute h-[calc(100%_-_206.54px)] w-[calc(100%_-_516.89px)] top-[6.4rem] right-[16.18rem] bottom-[6.51rem] left-[16.13rem]"
+            className="absolute h-[68.18%] top-[15.78%] bottom-[16.04%] left-[calc(50%_-_170.37px)] w-[21.25rem]"
             motions={[
               {
                 input: guagecontroller,
@@ -654,7 +646,7 @@ const Intro = () => {
             <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-black opacity-[0.3]" />
           </CorgiDiv>
           <CorgiDiv
-            className="absolute h-[calc(100%_-_205.66px)] w-[calc(100%_-_515.25px)] top-[6.37rem] right-[16.11rem] bottom-[6.49rem] left-[16.09rem]"
+            className="absolute h-[68.32%] top-[15.7%] bottom-[15.99%] left-[calc(50%_-_170.92px)] w-[21.35rem]"
             motions={[
               {
                 input: guagecontroller,
@@ -705,7 +697,7 @@ const Intro = () => {
             <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-black opacity-[0.3]" />
           </CorgiDiv>
           <CorgiDiv
-            className="absolute h-[calc(100%_-_129.06px)] w-[calc(100%_-_466.12px)] top-[4.03rem] right-[14.56rem] bottom-[4.04rem] left-[14.57rem]"
+            className="absolute h-[80.12%] top-[9.92%] bottom-[9.96%] left-[calc(50%_-_195.3px)] w-[24.42rem]"
             motions={[
               {
                 input: guagecontroller,
@@ -736,7 +728,7 @@ const Intro = () => {
             <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-black opacity-[0.3]" />
           </CorgiDiv>
           <CorgiDiv
-            className="absolute top-[38.73rem] left-[45.53rem] w-[12rem] h-[1.75rem] [transform:_rotate(3.94deg)] [transform-origin:0_0]"
+            className="absolute top-[38.73rem] right-[-1.51rem] w-[12rem] h-[1.75rem] [transform:_rotate(3.94deg)] [transform-origin:0_0] text-[0.63rem]"
             motions={[
               {
                 input: guagecontroller,
@@ -755,9 +747,9 @@ const Intro = () => {
             </div>
           </CorgiDiv>
         </div>
-        <div className="self-stretch relative w-[53.55rem]">
+        <div className="self-stretch flex-1 relative">
           <CorgiDiv
-            className="absolute h-[calc(100%_-_206.54px)] w-[calc(100%_-_516.89px)] top-[6.4rem] right-[16.18rem] bottom-[6.51rem] left-[16.13rem]"
+            className="absolute h-[68.18%] top-[15.78%] bottom-[16.04%] left-[calc(50%_-_170.37px)] w-[21.25rem]"
             motions={[
               {
                 input: guagecontroller,
@@ -788,7 +780,7 @@ const Intro = () => {
             <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-black opacity-[0.3]" />
           </CorgiDiv>
           <CorgiDiv
-            className="absolute h-[calc(100%_-_205.66px)] w-[calc(100%_-_515.25px)] top-[6.37rem] right-[16.11rem] bottom-[6.49rem] left-[16.09rem]"
+            className="absolute h-[68.32%] top-[15.7%] bottom-[15.99%] left-[calc(50%_-_170.92px)] w-[21.35rem]"
             motions={[
               {
                 input: guagecontroller,
@@ -819,7 +811,7 @@ const Intro = () => {
             <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-black opacity-[0.3]" />
           </CorgiDiv>
           <CorgiDiv
-            className="absolute h-[calc(100%_-_129.06px)] w-[calc(100%_-_466.12px)] top-[4.03rem] right-[14.56rem] bottom-[4.04rem] left-[14.57rem]"
+            className="absolute h-[80.12%] top-[9.92%] bottom-[9.96%] left-[calc(50%_-_195.3px)] w-[24.42rem]"
             motions={[
               {
                 input: guagecontroller,
@@ -850,7 +842,7 @@ const Intro = () => {
             <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-black opacity-[0.3]" />
           </CorgiDiv>
           <CorgiDiv
-            className="absolute top-[38.73rem] left-[45.53rem] w-[12rem] h-[1.75rem] [transform:_rotate(3.94deg)] [transform-origin:0_0]"
+            className="absolute top-[38.73rem] right-[-1.51rem] w-[12rem] h-[1.75rem] [transform:_rotate(3.94deg)] [transform-origin:0_0] text-[0.63rem]"
             motions={[
               {
                 input: guagecontroller,
@@ -869,9 +861,9 @@ const Intro = () => {
             </div>
           </CorgiDiv>
         </div>
-        <div className="self-stretch relative w-[53.55rem]">
+        <div className="self-stretch flex-1 relative">
           <CorgiDiv
-            className="absolute h-[calc(100%_-_206.54px)] w-[calc(100%_-_516.89px)] top-[6.4rem] right-[16.18rem] bottom-[6.51rem] left-[16.13rem]"
+            className="absolute h-[68.18%] top-[15.78%] bottom-[16.04%] left-[calc(50%_-_170.37px)] w-[21.25rem]"
             motions={[
               {
                 input: guagecontroller,
@@ -895,7 +887,7 @@ const Intro = () => {
             <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-black opacity-[0.3]" />
           </CorgiDiv>
           <CorgiDiv
-            className="absolute h-[calc(100%_-_205.66px)] w-[calc(100%_-_515.25px)] top-[6.37rem] right-[16.11rem] bottom-[6.49rem] left-[16.09rem]"
+            className="absolute h-[68.32%] top-[15.7%] bottom-[15.99%] left-[calc(50%_-_170.92px)] w-[21.35rem]"
             motions={[
               {
                 input: guagecontroller,
@@ -919,7 +911,7 @@ const Intro = () => {
             <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-black opacity-[0.3]" />
           </CorgiDiv>
           <CorgiDiv
-            className="absolute h-[calc(100%_-_129.06px)] w-[calc(100%_-_466.12px)] top-[4.03rem] right-[14.56rem] bottom-[4.04rem] left-[14.57rem]"
+            className="absolute h-[80.12%] top-[9.92%] bottom-[9.96%] left-[calc(50%_-_195.3px)] w-[24.42rem]"
             motions={[
               {
                 input: guagecontroller,
@@ -937,7 +929,7 @@ const Intro = () => {
             <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-black opacity-[0.3]" />
           </CorgiDiv>
           <CorgiDiv
-            className="absolute top-[38.73rem] left-[45.53rem] w-[12rem] h-[1.75rem] [transform:_rotate(3.94deg)] [transform-origin:0_0]"
+            className="absolute top-[38.73rem] right-[-1.51rem] w-[12rem] h-[1.75rem] [transform:_rotate(3.94deg)] [transform-origin:0_0] text-[0.63rem]"
             motions={[
               {
                 input: guagecontroller,
